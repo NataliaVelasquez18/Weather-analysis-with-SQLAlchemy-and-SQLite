@@ -7,6 +7,8 @@ Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a S
 
 When opening a new venture and delivering profitability to investors depending on the type of buisness, several external conditions, such as weather, need to be taking in account before presenting the proposal.  In this project, we will be analyzing historical weather data and it's relationship with the new venture. The purpose of this work, is to enable investors with the necessary information in order to make a well informed decision on wheather or not they should invest in the business.
 
+Note: In this project in order to store our data, we will be using **SQLite** over **PostgreSQL** because according to our business case, SQLite is useful for testing and small apps that do not requiere expansion.  On the other hand, PostgreSQL is recommended when data integrity and reliability is highly concerned and to maintain complex databases without limitations.
+
 
 ## Getting Started
 
@@ -19,11 +21,6 @@ Before the installations there are some important concepts you need to know:
 
 **SQLite**, a version of SQL that lives in the computer or phone and provides a quick way to setup a database engine without requiring a server. SQLite's main purpose is to supporting quick testing and easy prototyping. 
 
-**When to use SQLite and PostgreSQL?**
-
-**SQLite** is highly useful for: Standalone apps, small apps that don’t require expansion, apps need to read or write files to disk directly, the internet of things devices, developing and even testing.  In this project, we will be using this tool as the investors haven't decided yet whether or not they will invest in the new venture.
-
-**PostgreSQL** is recommended when: Data integrity and reliability is highly concerned, custom Procedures which is extensible to run the complex task, complexity with ease. PostgreSQL gives you the functionality to maintain such a complex database smoothly without limitations.  More stablished businesses with a variety of needs and complexities will use this tool.
 
 **SQLAlchemy** is a library that facilitates the communication between Python programs and databases. Most of the times, this library is used as an Object Relational Mapper (ORM) tool that translates Python classes to tables on relational databases and automatically converts function calls to SQL statements.
 
