@@ -28,11 +28,16 @@ Before the installations there are some important concepts you need to know:
 
 **SQLite**, a version of SQL that lives in the computer or phone and provides a quick way to setup a database engine without requiring a server. SQLite's main purpose is to supporting quick testing and easy prototyping. When prototyping, it is not ideal to set up a SQL database server just to test something out. You can compare SQLite databases to a CSV or Excel file: each SQLite database can have one or more tables with columns and rows, and it is stored as a file on your computer. The key difference between SQLite databases and a CSV or Excel file is that you can write queries for it.
 
-**DB Browser for SQLite**, is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.  It is for users and developers who want to create, search, and edit databases. DB4S uses a familiar spreadsheet-like interface, and complicated SQL commands do not have to be learned.
+**When to use SQLite and PostgreSQL?**
+
+**SQLite** is highly useful for: Standalone apps, small apps that don’t require expansion, apps need to read or write files to disk directly, the internet of things devices, developing and even testing.
+
+**PostgreSQL** is recommended when: Data integrity and reliability is highly concerned, custom Procedures which is extensible to run the complex task, complexity with ease. PostgreSQL gives you the functionality to maintain such a complex database smoothly without limitations.
+
 
 ### Installing
 
-**First**, visit the [DB Browser for SQLite](https://sqlitebrowser.org/) site and download the last released version for your operating system.
+**First**, visit the [DB Browser for SQLite](https://sqlitebrowser.org/) site and download the last released version for your operating system.  **DB Browser for SQLite**, is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.  It is for users and developers who want to create, search, and edit databases. DB4S uses a familiar spreadsheet-like interface, and complicated SQL commands do not have to be learned.
 
 **Second**, download [Anaconda](https://docs.anaconda.com/anaconda/install/) for your operating system.  From your Anaconda Navigator you can launch Visual Studio Code and Jupyter Notebook.
 
