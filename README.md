@@ -58,6 +58,11 @@ There is a high-level summary of the results and there are two additional querie
 
 Investing in Waves and Ice Cream
 
+
+In this graph we have along the x-axis are the dates from the last 365 days from our dataset, and the y-axis is the total amount of precipitation for each day. We can observe that some months have higher amounts of precipitation than others.
+
+graph precipitation_last_year
+
 ---
 
 
