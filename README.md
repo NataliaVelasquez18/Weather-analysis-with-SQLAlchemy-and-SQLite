@@ -13,9 +13,9 @@ There is a high-level summary of the results and there are two additional querie
 Investing in Waves and Ice Cream
 
 
-# Project Title
+# Weather Analysis with SQLAlchemy and SQLite
 
-One Paragraph of project description goes here
+Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a SQLite database.
 
 ## Getting Started
 
