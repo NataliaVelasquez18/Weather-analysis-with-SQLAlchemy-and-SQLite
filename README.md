@@ -17,7 +17,7 @@ These instructions will get your SQLite database up and running on your local ma
 
 Before the installations there are some important concepts you need to know:  
 
-**SQLite**, a version of SQL that lives in the computer or phone and provides a quick way to setup a database engine without requiring a server. SQLite's main purpose is to supporting quick testing and easy prototyping. When prototyping, it is not ideal to set up a SQL database server just to test something out. You can compare SQLite databases to a CSV or Excel file: each SQLite database can have one or more tables with columns and rows, and it is stored as a file on your computer. The key difference between SQLite databases and a CSV or Excel file is that you can write queries for it.
+**SQLite**, a version of SQL that lives in the computer or phone and provides a quick way to setup a database engine without requiring a server. SQLite's main purpose is to supporting quick testing and easy prototyping. 
 
 **When to use SQLite and PostgreSQL?**
 
