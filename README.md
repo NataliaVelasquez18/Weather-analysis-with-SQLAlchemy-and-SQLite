@@ -1,21 +1,14 @@
-# surfs_up
-
-Overview of the statistical analysis:
-
-The purpose of the analysis is well defined. (3 pt)
-Results:
-
-There is a bulleted list that addresses the three key differences in weather between June and December. (6 pt)
-Summary:
-
-There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. (5 pt)
-
-Investing in Waves and Ice Cream
-
-
 # Weather Analysis with SQLAlchemy and SQLite
 
 Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a SQLite database. Then, use statistics like minimum, maximum, and average to analyze data.
+
+
+## Business Problem
+
+
+Managing company data in Excel or VBA can become conversome as organizations grow and more business users need answers from data.  As companies scale they need to put a different system in place to store and manage large amounts of data.  The purpose of this project is to show how to build a database using SQL when transitioning from using csv files and how efficient is to retrive any information needed for analysis.
+
+
 
 ## Getting Started
 
@@ -53,6 +46,19 @@ Download the folders and files contained in this repository on your local machin
 
 ### Analysis
 
+# surfs_up
+
+Overview of the statistical analysis:
+
+The purpose of the analysis is well defined. (3 pt)
+Results:
+
+There is a bulleted list that addresses the three key differences in weather between June and December. (6 pt)
+Summary:
+
+There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. (5 pt)
+
+Investing in Waves and Ice Cream
 
 ---
 
