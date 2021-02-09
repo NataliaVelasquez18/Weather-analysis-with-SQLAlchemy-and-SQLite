@@ -59,9 +59,17 @@ There is a high-level summary of the results and there are two additional querie
 Investing in Waves and Ice Cream
 
 
-In this graph we have along the x-axis are the dates from the last 365 days from our dataset, and the y-axis is the total amount of precipitation for each day. We can observe that some months have higher amounts of precipitation than others.
+1. In this graph we have along the x-axis are the dates from the last 365 days from our dataset, and the y-axis is the total amount of precipitation for each day. We can observe that some months have higher amounts of precipitation than others.
 
 graph precipitation_last_year
+
+
+2. Drilling down into the last year's data and only analyzing the meteorological station with the largest number of observations, we can infer that a vast majority of the observations were over 67 degrees. If you count up the bins to the right of 67 degrees, you will get about 325 days where it was over 67 degrees when the temperature was observed.
+
+histogram pic
+
+
+3. 
 
 ---
 
