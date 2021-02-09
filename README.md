@@ -5,7 +5,7 @@ Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a S
 
 ## Business Problem
 
-
+When opening a new business and delivering profitability to investors depending on the type of buisness, several external conditions need to be taking in account such as weather conditions.  Th
 Managing company data in Excel or VBA can become conversome as organizations grow and more business users need answers from data.  As companies scale they need to put a different system in place to store and manage large amounts of data.  The purpose of this project is to show how to build a database using SQL when transitioning from using csv files and how efficient is to retrive any information needed for analysis.
 
 
