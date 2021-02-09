@@ -5,9 +5,7 @@ Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a S
 
 ## Business Problem
 
-When opening a new business and delivering profitability to investors depending on the type of buisness, several external conditions need to be taking in account such as weather conditions.  Th
-Managing company data in Excel or VBA can become conversome as organizations grow and more business users need answers from data.  As companies scale they need to put a different system in place to store and manage large amounts of data.  The purpose of this project is to show how to build a database using SQL when transitioning from using csv files and how efficient is to retrive any information needed for analysis.
-
+When opening a new venture and delivering profitability to investors depending on the type of buisness, several external conditions, such as weather, need to be taking in account before presenting the proposal.  In this project, we will be analyzing historical weather data and it's relationship with the new venture. The purpose of this work, is to enable investors with the necessary information in order to make a well informed decision on wheather or not they should invest in the business.
 
 
 ## Getting Started
@@ -23,9 +21,9 @@ Before the installations there are some important concepts you need to know:
 
 **When to use SQLite and PostgreSQL?**
 
-**SQLite** is highly useful for: Standalone apps, small apps that don’t require expansion, apps need to read or write files to disk directly, the internet of things devices, developing and even testing.
+**SQLite** is highly useful for: Standalone apps, small apps that don’t require expansion, apps need to read or write files to disk directly, the internet of things devices, developing and even testing.  In this project, we will be using this tool as the investors haven't decided yet whether or not they will invest in the new venture.
 
-**PostgreSQL** is recommended when: Data integrity and reliability is highly concerned, custom Procedures which is extensible to run the complex task, complexity with ease. PostgreSQL gives you the functionality to maintain such a complex database smoothly without limitations.
+**PostgreSQL** is recommended when: Data integrity and reliability is highly concerned, custom Procedures which is extensible to run the complex task, complexity with ease. PostgreSQL gives you the functionality to maintain such a complex database smoothly without limitations.  More stablished businesses with a variety of needs and complexities will use this tool.
 
 **SQLAlchemy** is a library that facilitates the communication between Python programs and databases. Most of the times, this library is used as an Object Relational Mapper (ORM) tool that translates Python classes to tables on relational databases and automatically converts function calls to SQL statements.
 
