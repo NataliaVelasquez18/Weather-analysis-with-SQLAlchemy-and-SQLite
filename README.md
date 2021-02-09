@@ -15,57 +15,48 @@ Investing in Waves and Ice Cream
 
 # Weather Analysis with SQLAlchemy and SQLite
 
-Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a SQLite database.
+Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a SQLite database. Then, using statistics like minimum, maximum, and average to analyze data.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get your PostgreSQL database up and running on your local machine.
+
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Before the installations there are some important concepts you need to know:  
 
-```
-Give examples
-```
+**SQLite**, a version of SQL that lives in the computer or phone and provides a quick way to setup a database engine without requiring a server. SQLite's main purpose is to supporting quick testing and easy prototyping. When prototyping, it is not ideal to set up a SQL database server just to test something out.  All SQLite databases are flat files, which means that they don't have relationships that connect the data to anything else. As a result, flat files can be stored locally.You can compare SQLite databases to a CSV or Excel file: each SQLite database can have one or more tables with columns and rows, and it is stored as a file on your computer. The key difference between SQLite databases and a CSV or Excel file is that you can write queries for it.
+
+
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+**First**, visit the **PostgresSQL** [download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) - The web framework used to initiate your download. Be sure to choose the correct download option for your operating system. Both Postgres and pgAdmin are downloaded together as a package. Be sure to Not select the latest Postgres version, we're installing a previous version to the latest because it is a more stable release.  During installation, you'll need to create a password. Be sure to record it, as you'll use it to access your SQL database.  
 
-Say what the step will be
+An InstallBuilder window will show the components selected for installation. Be sure to uncheck Stack Builder's box. Stack Builder is used to install Postgres add-ons, but we won't need it for our project.
 
-```
-Give the example
-```
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/uncheck_stack_builder.png" width="350" height="250" />
 
-And repeat
 
-```
-until finished
-```
+To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/confirm_pgadmin_installation.png" width="390" height="250" />
 
-Explain how to run the automated tests for this system
 
-### Break down into end to end tests
 
-Explain what these tests test and why
+**Second**, download [Anaconda](https://docs.anaconda.com/anaconda/install/) for your operating system.  From your Anaconda Navigator you can launch Visual Studio Code and Jupyter Notebook.
 
-```
-Give an example
-```
 
-### And coding style tests
+### Download files
 
-Explain what these tests test and why
+Download the folders and files contained in this repository on your local machine except for the png_images folder
 
-```
-Give an example
-```
+
+---
+
 
 ## Deployment
 
