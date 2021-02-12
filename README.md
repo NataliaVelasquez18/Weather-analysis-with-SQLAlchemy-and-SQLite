@@ -1,6 +1,6 @@
 # Weather Analysis with SQLAlchemy and SQLite
 
-Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a SQLite database. Then, use statistics like minimum, maximum, and average to analyze data.
+Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a SQLite database. Executed statistical analysis with Python, produced visuals with Matplotlib, and provided business recommendations.
 
 
 ## Business Problem
