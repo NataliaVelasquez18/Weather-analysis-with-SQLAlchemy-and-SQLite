@@ -64,7 +64,11 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 4. **Analysis on Temperature for the month of June from 2010 - 2017 including all the meteorological stations**:
 
-
+* There are 1,700 observations of temperature of June days.
+* As we can observe from the image and the stats below, 75% of our observations sit above the 73 deegrees Farenheit. 
+* The minimun temperature observed for a summer month such as June is 64 degrees.
+* Being the mean and median almost identical mean that....
+* A standard deviation of xxxx mean that...
 
 
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/june_hist.png" width="790" height="350" />
@@ -72,6 +76,7 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/june_statistics.png" width="180" height="350" />
+
 
 
 5. **Analysis on Temperature for the month of December from 2010 - 2016 including all the meteorological stations**:
