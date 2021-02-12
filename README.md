@@ -47,7 +47,7 @@ Download the folders and files contained in this repository on your local machin
 
 
 
-<img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/precipitation_last_year.png" width="390" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/precipitation_last_year.png" width="690" height="350" />
 
 
 2. Precipitation Statistics
