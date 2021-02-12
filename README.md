@@ -48,8 +48,11 @@ In this graph we have along the x-axis are the dates from the last 365 days from
 
 
 
-<img align="center" src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/precipitation_last_year.png" width="790" height="350" />
+<div style="text-align:center"><img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/precipitation_last_year.png" width="790" height="350" /></div>
 
+
+<div style="text-align:center">
+  <div style="text-align:center"><img src="..." /></div>
 
 2. **Temperature in the last 365 days**:
 
