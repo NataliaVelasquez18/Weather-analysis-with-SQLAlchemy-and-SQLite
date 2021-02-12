@@ -9,6 +9,10 @@ When opening a new venture and delivering profitability to investors depending o
 
 Note: In this project in order to store our data, we will be using **SQLite** over **PostgreSQL** because according to our business case, SQLite is useful for testing and small apps that do not requiere expansion.  On the other hand, PostgreSQL is recommended when data integrity and reliability is highly concerned and to maintain complex databases without limitations.
 
+### Executive Summary
+
+* The weather conditions of the island have tested favorable.  We have observed mostly warm days and few days with rain even in the winter months so we advise to invest in the project. 
+
 
 ## Getting Started
 
@@ -62,7 +66,7 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 
 
-4. **Analysis on Temperature for the month of June from 2010 - 2017 including all the meteorological stations**:
+3. **Analysis on Temperature for the month of June from 2010 - 2017 including all the meteorological stations**:
 
 
 * There are 1,700 observations of temperature of June days.
@@ -80,7 +84,7 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 
 
-5. **Analysis on Temperature for the month of December from 2010 - 2016 including all the meteorological stations**:
+4. **Analysis on Temperature for the month of December from 2010 - 2016 including all the meteorological stations**:
 
 
 * There are 1,5170 observations of temperature of December days.
@@ -99,11 +103,11 @@ Drilling down into the last year's data and only analyzing the meteorological st
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/dec_statistics.png" width="180" height="350" />
 
 
-6. **Analysis on Precipitation from 2010 - 2017 including all the meteorological stations**:
+5. **Analysis on Precipitation from 2010 - 2017 including all the meteorological stations**:
 
 * Null values (7%) on precipitation were removed from the dataset.
 
-* We can observe that the vast majority of our data sits where there is zero precipitation.  Meaning, the rain was almos unexistent from 2010 to 2017.
+* We can observe that the vast majority of days had zero precipitation.  Meaning, the rain was almos unexistent from 2010 to 2017.
 
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/precip_hist.png" width="790" height="350" />
 
@@ -117,7 +121,11 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 ### Recommendations
 
-* 
+* For the ice cream business explore how deliveries through an online stores can be incorporated.  There are logistical considerations specially for the type of product but the business should not limit to store sales.
+
+* The current global landscape with COVID-19 might affect the business for the flow of travelers to the Island.  However, ice cream delivery and surf boards rental can still work when biosecurity measures are applied.
+
+* The commercial space dedicated to the business should represent low fixed cost  The current situation with COVID-19 might allow the business to access lower rent prices.
 
 ---
 
