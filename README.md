@@ -99,8 +99,15 @@ Drilling down into the last year's data and only analyzing the meteorological st
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/dec_statistics.png" width="180" height="350" />
 
 
-6. **Analysis on Precipitation for the month of June from 2010 - 2017 including all the meteorological stations**:
+6. **Analysis on Precipitation from 2010 - 2017 including all the meteorological stations**:
 
+In the following graph we can observe that 
+
+<img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/precip_hist.png" width="790" height="350" />
+
+
+
+<img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/precip_statistics.png" width="180" height="350" />
 
 
 7. **Analysis on Precipitation for the month of December from 2010 - 2016 including all the meteorological stations**:
