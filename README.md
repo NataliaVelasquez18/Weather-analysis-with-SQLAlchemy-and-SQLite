@@ -66,14 +66,14 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/june_hist.png" width="790" height="350" />
 
-<img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/june_statistics.png" width="110" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/june_statistics.png" width="130" height="250" />
 
 
 5. **Analysis on Temperature for the month of December from 2010 - 2016 including all the meteorological stations**:
 
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/dec_hist.png" width="790" height="350" />
 
-<img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/dec_statistics.png" width="110" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/dec_statistics.png" width="130" height="250" />
 
 
 6. 
