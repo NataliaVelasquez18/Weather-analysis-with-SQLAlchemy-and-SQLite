@@ -103,7 +103,7 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 * Null values (7%) on precipitation were removed from the dataset.
 
-* We can observe that 
+* We can observe that the vast majority of our data sits where there is zero precipitation.  Meaning, the rain was almos unexistent from 2010 to 2017.
 
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/precip_hist.png" width="790" height="350" />
 
@@ -112,13 +112,12 @@ Drilling down into the last year's data and only analyzing the meteorological st
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/precip_statistics.png" width="180" height="350" />
 
 
-7. **Analysis on Precipitation for the month of December from 2010 - 2016 including all the meteorological stations**:
 ---
 
 
 ### Recommendations
 
-
+* 
 
 ---
 
