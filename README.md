@@ -51,10 +51,9 @@ In this graph we have along the x-axis are the dates from the last 365 days from
 <div style="text-align:center"><img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/precipitation_last_year.png" width="790" height="350" /></div>
 
 
-<div style="text-align:center">
-  <div style="text-align:center"><img src="..." /></div>
 
 2. **Temperature in the last 365 days**:
+
 
 Drilling down into the last year's data and only analyzing the meteorological station with the largest number of observations, we can infer that a vast majority of the observations were over 67 degrees. If you count up the bins to the right of 67 degrees, you will get about 325 days where it was over 67 degrees when the temperature was observed.
 
@@ -62,19 +61,26 @@ Drilling down into the last year's data and only analyzing the meteorological st
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/histogram.png" width="790" height="350" />
 
 
+
 4. **Analysis on Temperature for the month of June from 2010 - 2017 including all the meteorological stations**:
 
-* Summary statistics
+
 
 
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/june_hist.png" width="790" height="350" />
+
+
 
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/june_statistics.png" width="180" height="350" />
 
 
 5. **Analysis on Temperature for the month of December from 2010 - 2016 including all the meteorological stations**:
 
+
+
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/dec_hist.png" width="790" height="350" />
+
+
 
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/dec_statistics.png" width="180" height="350" />
 
