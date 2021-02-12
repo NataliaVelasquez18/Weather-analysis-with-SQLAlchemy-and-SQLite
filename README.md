@@ -5,7 +5,7 @@ Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a S
 
 ## Business Problem
 
-When opening a new venture and delivering profitability to investors depending on the type of buisness, several external conditions, such as weather, need to be taking in account before presenting the proposal.  In this project, we will be analyzing historical weather data and it's relationship with the new venture. The purpose of this work, is to enable investors with the necessary information in order to make a well informed decision on wheather or not they should invest in the business.
+When opening a new venture and delivering profitability to investors depending on the type of buisness, several external conditions, such as weather, need to be taking in account before presenting the proposal.  In this project, we will be analyzing historical weather data.  The success of the project will depend mainly on **having warm weather and zero precipitation**. The purpose of this work, is to enable investors with the necessary information in order to make a well informed decision on wheather or not they should invest in the business.
 
 Note: In this project in order to store our data, we will be using **SQLite** over **PostgreSQL** because according to our business case, SQLite is useful for testing and small apps that do not requiere expansion.  On the other hand, PostgreSQL is recommended when data integrity and reliability is highly concerned and to maintain complex databases without limitations.
 
@@ -64,8 +64,9 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 4. **Analysis on Temperature for the month of June from 2010 - 2017 including all the meteorological stations**:
 
+
 * There are 1,700 observations of temperature of June days.
-* As we can observe from the image and the stats below, 75% of our observations sit above the 73 deegrees Farenheit. 
+* As we can observe from the image and the stats below, 75% of our observations sit above the 73 deegrees. 
 * The minimun temperature observed for a summer month such as June is 64 degrees.
 * Being the mean and median almost identical mean that....
 * A standard deviation of xxxx mean that...
@@ -82,6 +83,14 @@ Drilling down into the last year's data and only analyzing the meteorological st
 5. **Analysis on Temperature for the month of December from 2010 - 2016 including all the meteorological stations**:
 
 
+* There are 1,5170 observations of temperature of December days.
+* As we can observe from the image and the stats below, 75% of our observations sit above the 69 deegrees Farenheit. 
+* The minimun temperature observed for a winter month such as December is 56 degrees.  
+* Less than 10 observations sit below the 60 degrees.
+* Being the mean and median almost identical mean that....
+* A standard deviation of xxxx mean that...
+
+
 
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/dec_hist.png" width="790" height="350" />
 
@@ -90,22 +99,11 @@ Drilling down into the last year's data and only analyzing the meteorological st
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/dec_statistics.png" width="180" height="350" />
 
 
-6. 
+6. **Analysis on Precipitation for the month of June from 2010 - 2017 including all the meteorological stations**:
 
 
-surfs_up
 
-Overview of the statistical analysis:
-
-The purpose of the analysis is well defined. (3 pt)
-Results:
-
-There is a bulleted list that addresses the three key differences in weather between June and December. (6 pt)
-Summary:
-
-There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. (5 pt)
-
-Investing in Waves and Ice Cream
+7. **Analysis on Precipitation for the month of December from 2010 - 2016 including all the meteorological stations**:
 ---
 
 
