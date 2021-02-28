@@ -72,6 +72,8 @@ Drilling down into the last year's data and only analyzing the meteorological st
 * There are 1,700 observations of temperature of June days.
 * As we can observe from the image and the stats below, 75% of our observations sit above the 73 deegrees. 
 * The minimun temperature observed for a summer month such as June is 64 degrees.
+* The majority of the data on temperature for the month of June is in between 71 and 77 deegrees.
+* When comparing the month of June with the month of december, we can observe several differences:  in overall the temperature in December is lower, we have less data points in December, and the temperature in December can go as low as 56 degrees that is almost 10 deegrees lower than the minimum temperature observed in June.
 
 
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/june_hist.png" width="790" height="350" />
@@ -89,6 +91,7 @@ Drilling down into the last year's data and only analyzing the meteorological st
 * As we can observe from the image and the stats below, 75% of our observations sit above the 69 deegrees Farenheit. 
 * The minimun temperature observed for a winter month such as December is 56 degrees.  
 * Less than 10 observations sit below the 60 degrees.
+* The majority of the data on temperature for the month of June is in between 68 and 74 deegrees.
 
 
 
