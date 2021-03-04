@@ -130,7 +130,7 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 ## Acknowledgments
 
-* Berkeley University Department of Data Science provided the training materials to develop this project.
+* Berkeley University Department of Data Science provided the training to develop this project.
 
 ---
 
