@@ -11,7 +11,7 @@ Note: In this project in order to store our data, we will be using **SQLite** ov
 
 ### Executive Summary
 
-* The weather conditions of the island have tested favorable.  We have observed mostly warm days and few days with rain even in the winter months so we advise to invest in the project. 
+* The weather conditions of the island have tested favorable.  We advise to invest in the project. 
 
 
 ## Getting Started
