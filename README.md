@@ -1,17 +1,18 @@
 # Weather Analysis with SQLAlchemy and SQLite
 
-Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a SQLite database. Executed statistical analysis with Python, produced visuals with Matplotlib, and provided business recommendations.
+Advanced Data Storage and Retrieval using SQLAlchemy to connect to and query a SQLite database. Executed statistical analysis with Python and produced visuals with Matplotlib.
 
 
 ## Business Problem
+Understand wheater conditions to determine how favorable is weather to open a new venture
 
-When opening a new venture and delivering profitability to investors depending on the type of buisness, several external conditions, such as weather, need to be taking in account before presenting the proposal.  In this project, we will be analyzing historical weather data.  The success of the project will depend mainly on **having warm weather and zero precipitation**. The purpose of this work, is to enable investors with the necessary information in order to make a well informed decision on wheather or not they should invest in the business.
-
-Note: In this project in order to store our data, we will be using **SQLite** over **PostgreSQL** because according to our business case, SQLite is useful for testing and small apps that do not requiere expansion.  On the other hand, PostgreSQL is recommended when data integrity and reliability is highly concerned and to maintain complex databases without limitations.
+Note: We will be using **SQLite** over **PostgreSQL**. SQLite is useful for testing and small apps that do not requiere expansion.  On the other hand, PostgreSQL is recommended when data integrity and reliability is highly concerned and to maintain complex databases without limitations.
 
 ### Executive Summary
 
-* The weather conditions of the island have tested favorable.  We advise to invest in the project. 
+* The majority of the data on temperature for the month of June is in between 71 and 77 deegrees.
+* The majority of the data on temperature for the month of December is in between 68 and 74 deegrees.
+* We can observe that the vast majority of days had zero precipitation.
 
 
 ## Getting Started
@@ -43,10 +44,10 @@ Download the folders and files contained in this repository on your local machin
 
 ---
 
-### Analysis
+### Descriptive Statistics
 
 
-1. **Precipitation in the last 365 days**: 
+**Precipitation in the last 365 days**: 
 
 In this graph we have along the x-axis are the dates from the last 365 days from our dataset, and the y-axis is the total amount of precipitation for each day. We can observe that some months have higher amounts of precipitation than others.
 
@@ -56,7 +57,7 @@ In this graph we have along the x-axis are the dates from the last 365 days from
 
 
 
-2. **Temperature in the last 365 days**:
+**Temperature in the last 365 days**:
 
 
 Drilling down into the last year's data and only analyzing the meteorological station with the largest number of observations, we can infer that a vast majority of the observations were over 67 degrees. If you count up the bins to the right of 67 degrees, you will get about 325 days where it was over 67 degrees when the temperature was observed.
@@ -66,7 +67,7 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 
 
-3. **Analysis on Temperature for the month of June from 2010 - 2017 including all the meteorological stations**:
+**Analysis on Temperature for the month of June from 2010 - 2017 including all the meteorological stations**:
 
 
 * There are 1,700 observations of temperature of June days.
@@ -84,14 +85,14 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 
 
-4. **Analysis on Temperature for the month of December from 2010 - 2016 including all the meteorological stations**:
+**Analysis on Temperature for the month of December from 2010 - 2016 including all the meteorological stations**:
 
 
 * There are 1,5170 observations of temperature of December days.
 * As we can observe from the image and the stats below, 75% of our observations sit above the 69 deegrees Farenheit. 
 * The minimun temperature observed for a winter month such as December is 56 degrees.  
 * Less than 10 observations sit below the 60 degrees.
-* The majority of the data on temperature for the month of June is in between 68 and 74 deegrees.
+* The majority of the data on temperature for the month of December is in between 68 and 74 deegrees.
 
 
 
@@ -102,7 +103,7 @@ Drilling down into the last year's data and only analyzing the meteorological st
 <img src="https://github.com/NataliaVelasquez18/Weather-analysis-with-SQLAlchemy-and-SQLite/blob/main/png_images/dec_statistics.png" width="180" height="350" />
 
 
-5. **Analysis on Precipitation from 2010 - 2017 including all the meteorological stations**:
+**Analysis on Precipitation from 2010 - 2017 including all the meteorological stations**:
 
 * Null values (7%) on precipitation were removed from the dataset.
 
@@ -117,26 +118,4 @@ Drilling down into the last year's data and only analyzing the meteorological st
 
 ---
 
-
-### Recommendations
-
-* For the ice cream business explore how deliveries through an online stores can be incorporated.  There are logistical considerations specially for the type of product but the business should not limit to store sales.
-
-* The current global landscape with COVID-19 might affect the business for the flow of travelers to the Island.  However, ice cream delivery and surf boards rental can still work when biosecurity measures are applied.
-
-* The commercial space dedicated to the business should represent low fixed cost  The current situation with COVID-19 might allow the business to access lower rent prices.
-
----
-
-## Acknowledgments
-
-* Berkeley University Department of Data Science provided the training to develop this project.
-
----
-
-## Author
-
-* Contact: Natalia Velasquez
-* Email: nativelasquez@gmail.com
-* Twitter: @NatiVelasquez18
 
